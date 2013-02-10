@@ -2,7 +2,7 @@
 
 ### Usage
 
-You can Dichotomy plugins through JavaScript or the markup API.
+You can use Dichotomy plugins through JavaScript or the markup API.
 
 #### JavaScript usage:
 
@@ -82,8 +82,8 @@ Dichotomy plugin have two ewents for hooking into functionality.
 
 <table>
     <tr>
-        <td>**event**</td>
-        <td>**description**</td>
+        <td><strong>event</strong></td>
+        <td><strong>description</strong></td>
     </tr>
     <tr>
         <td>divide
