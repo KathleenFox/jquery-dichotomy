@@ -34,20 +34,20 @@ Options can be passed via data attributes or JavaScript. For data attributes, ap
         <td>direction</td>
         <td>string</td>
         <td>'clockwise'</td>
-        <td>Direction dividing block: clockwise or counterclockwise (`counter`)</td>
+        <td>Direction dividing block: clockwise or counterclockwise ('counter')</td>
     </tr>
     <tr>
         <td>duration</td>
         <td>number</td>
         <td>400</td>
-        <td>Duration animation. Time in ms. You can use jquery option `'slow'` and `'fast'`</td>
+        <td>Duration animation. Time in ms. You can use jquery option 'slow' and 'fast'</td>
     </tr>
 
     <tr>
         <td>animate</td>
         <td>string</td>
         <td>'fade'</td>
-        <td>Type of animation: fadeIn-fadeOut, slideUp-slideDown (`'slideUp'`) or from right to left (`'slideSide'`)</td>
+        <td>Type of animation: fadeIn-fadeOut, slideUp-slideDown ('slideUp') or from right to left ('slideSide')</td>
     </tr>
 
     <tr>
