@@ -1,7 +1,7 @@
 {
     "name": "dichotomy",
     "title": "jQuery Dichotomy",
-    "description": "jQuery Dichotomy is images gallery plugin. Demo - http://shvlv.github.com/dichotomy.html",
+    "description": "jQuery Dichotomy is fresh images gallery plugin.,
     "keywords": [
         "image",
         "slideshow",
@@ -22,5 +22,6 @@
     "docs": "https://github.com/shvlv/jquery-dichotomy",
     "dependencies": {
         "jquery": ">=1.8.3"
-    }
+    },
+    "demo" : "http://shvlv.github.com/dichotomy.html"
 }
