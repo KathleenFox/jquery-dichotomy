@@ -14,9 +14,9 @@ You can Dichotomy plugins through JavaScript or the markup API.
 
 Images must place in next div.
 
-`<div class="dichotomy-images">
-    <img src="2.jpg">
- </div>`
+`<div class="dichotomy-images">`
+    `<img src="2.jpg">`
+ `</div>`
  
  
 ## Options
