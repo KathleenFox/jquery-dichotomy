@@ -97,8 +97,20 @@ Dichotomy plugin have two ewents for hooking into functionality.
     </tr>
 </table>
 
+### jQuery Compatibility
 
+Tested with jQuery 1.8.3 and next browser on Windows
+* IE 7/8/9
+* Chrome 24.0
+* Opera 12.14
+* Safari 5.1.7
+* Firefox 10.0.1
 
+Please tell about find bug with other browser or platform.
+
+### License
+
+Plugin licensed under the MIT license
 
 
 
