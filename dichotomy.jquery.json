@@ -1,7 +1,7 @@
 {
     "name": "dichotomy",
     "title": "jQuery Dichotomy",
-    "description": "jQuery Dichotomy is fresh images gallery plugin that show new pictures on mouse wheel",
+    "description": "jQuery Dichotomy is fresh images gallery plugin. Demo - http://shvlv.github.com/dichotomy.html",
     "keywords": [
         "image",
         "slideshow",
