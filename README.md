@@ -1,28 +1,51 @@
-# jQuery Dichotomy Plugin
+№# jQuery Dichotomy Plugin
 
-## Usage
+### Usage
 
 You can Dichotomy plugins through JavaScript or the markup API.
 
-### JavaScript usage:
+#### JavaScript usage:
 
-`$('.dichotomy').dichotomy()`
+    $('.dichotomy').dichotomy()
 
-### Data-API usage:
+#### Data-API usage:
 
-`<div class="dichotomy" data-level="0"></div>`
+    <div class="dichotomy" data-level="0"></div>
 
 Images must place in next div.
 
-`<div class="dichotomy-images">`
-    `<img src="2.jpg">`
- `</div>`
+    <div class="dichotomy-images">
+     <img src="2.jpg">
+    </div>
  
  
-## Options
+### Options
 
 Options can be passed via data attributes or JavaScript. For data attributes, append the option name to `data-`, as in `data-animate="slideUp"`.
 
 <table>
-<tr></tr>
+    <tr>
+        <td><strong>name</strong></td>
+        <td><strong>type</strong></td>
+        <td><strong>default</strong></td>
+        <td><strong>description</strong></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
 </table>
