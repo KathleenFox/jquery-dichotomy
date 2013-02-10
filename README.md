@@ -1,5 +1,8 @@
 ## jQuery Dichotomy Plugin
 
+### Demo
+[Try](http://shvlv.github.com/dichotomy.html)
+
 ### Usage
 
 You can use Dichotomy plugins through JavaScript or the markup API.
