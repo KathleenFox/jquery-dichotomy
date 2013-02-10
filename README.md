@@ -1,4 +1,4 @@
-№# jQuery Dichotomy Plugin
+## jQuery Dichotomy Plugin
 
 ### Usage
 
@@ -12,7 +12,7 @@ You can Dichotomy plugins through JavaScript or the markup API.
 
     <div class="dichotomy" data-level="0"></div>
 
-Images must place in next div.
+Images must place in next div if don't pass in options.
 
     <div class="dichotomy-images">
      <img src="2.jpg">
@@ -31,21 +31,74 @@ Options can be passed via data attributes or JavaScript. For data attributes, ap
         <td><strong>description</strong></td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>direction</td>
+        <td>string</td>
+        <td>'clockwise'</td>
+        <td>Direction dividing block: clockwise or counterclockwise (`counter`)</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>duration</td>
+        <td>number</td>
+        <td>400</td>
+        <td>Duration animation. Time in ms. You can use jquery option `'slow'` and `'fast'`</td>
     </tr>
+
     <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>animate</td>
+        <td>string</td>
+        <td>'fade'</td>
+        <td>Type of animation: fadeIn-fadeOut, slideUp-slideDown (`'slideUp'`) or from right to left (`'slideSide'`)</td>
+    </tr>
+
+    <tr>
+        <td>images</td>
+        <td>array</td>
+        <td>-</td>
+        <td>Array of string path to background-image if image don't pass via markup</td>
     </tr>
 </table>
+
+### Methods
+
+####.dichotomy(options)
+
+Initializes the galery with an optional options object.
+
+    $('.dichotomy').dichotomy({
+        animate:'slideSide'
+        });
+
+####.dichotomy('divide')
+
+Show next image
+
+####.dichotomy('unite')
+Remove last image
+
+
+### Events
+
+Dichotomy plugin have two ewents for hooking into functionality.
+
+<table>
+    <tr>
+        <td>**event**</td>
+        <td>**description**</td>
+    </tr>
+    <tr>
+        <td>divide
+        </td>
+        <td>This event fires when next image is shown.
+        </td>
+    </tr>
+    <tr>
+        <td>unite</td>
+        <td>This event fires when last image is removed.</td>
+    </tr>
+</table>
+
+
+
+
+
+
